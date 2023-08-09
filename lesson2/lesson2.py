@@ -1,0 +1,1 @@
+print("curs 2")
