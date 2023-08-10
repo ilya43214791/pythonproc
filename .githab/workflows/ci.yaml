@@ -16,4 +16,4 @@ jobs:
     - name: Run linter
       run: flake8 .
     - name: Run formatters
-      run: black8 --check . && isort --check .
+      run: black -t py311 --check . && isort --check .
