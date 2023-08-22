@@ -17,10 +17,8 @@ def add_player(num: int, name: str, age: int):
 def remove_player(players: list[dict], num: int):
     for player in players:
         if player["number"] == num:
-            team.remove(i)
+            team.remove(player)
             print("You delite player")
-        else:
-            print("You don't delite player")
 
 
 def main():
